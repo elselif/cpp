@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+int main(){
+	int a[5];
+	for(int i=0;i<5;i++){
+		cout << "dizide bulunmasini istediginiz sayilar : " <<endl;
+		cin>> a[i];
+	}
+	int eb=a[0];
+	
+	for(int i=0;i<5;i++){
+		if(a[i]>eb){
+			eb=a[i];
+		}
+	}
+	
+	int ek=a[0];
+	
+	for(int i=0;i<5;i++){
+		if(a[i]<ek){
+			ek=a[i];
+		}
+	}
+	
+	int toplam=0;
+	for(int i=0;i<5;i++){
+		toplam += a[i];
+	}
+	
+	cout << "enbuyuk : " << eb << endl;
+	cout << "enkucuk : " << ek << endl;
+	cout << "toplam : " << toplam << endl;
+	cout << "ortalama : " << toplam/5 << endl;
+}
