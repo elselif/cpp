@@ -1,0 +1,30 @@
+#include <iostream> //İLK 20 ASAL SAYI
+
+using namespace std;
+
+/*
+İLK 20 ASAL SAYI
+
+bool asalmi(int x){
+	
+	
+	for(int i=2;i<x;i++){
+		if(x%i==0){
+			return false;
+		}
+	}
+	
+	return true;
+}
+int main(){
+	
+	
+	
+	for(int i=2;i<20;i++){
+		if(asalmi(i)){
+			cout<<i<<endl;
+		}
+		
+	}
+}
+*/
