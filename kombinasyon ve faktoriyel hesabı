@@ -1,0 +1,27 @@
+#include <iostream> // KOMBİNASYON VE FAKTORİYEL HESABI
+
+using namespace std;
+
+int faktoriyel (int x){
+	int carpim=1;
+	for(x;x>=1;x--){
+		carpim *=x; //carpim=carpim*i
+		
+	}
+	
+}
+
+int kombinasyon (int n,int r){
+	return faktoriyel(n)/(faktoriyel(r)*faktoriyel(n-r));
+}
+	
+	
+int main(){
+	
+	
+	
+	cout << faktoriyel(3)<<endl;
+	cout<<kombinasyon(5,2);
+	
+	
+}
