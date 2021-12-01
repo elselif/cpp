@@ -1,0 +1,13 @@
+//ÖZYİNELİ ÇARPIM
+//f(a,b)=a+a+a+a+...+a //b kadar toplama
+//f(a,b-1)=a+a+a+...+a //b kadar toplama
+//f(a,b)=a+f(a,b-1)
+
+//f(a,0)=0
+
+int carpimR(int a,int b){//bitis,adım,başlangıç
+     if(b==0)
+     return 0;
+    return a+carpimR(a,b-1);
+	
+}
