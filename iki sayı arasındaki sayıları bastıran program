@@ -1,0 +1,16 @@
+#include <iostream> 
+using namespace std;
+int main(){
+	int altdeger,ustdeger;
+	
+	cout << "lutfen bir alt deger giriniz " << endl;
+	cin>> altdeger;
+	cout << "lutfen bir  ust deger giriniz : " << endl;
+    cin>> ustdeger;	
+    
+    for(;altdeger<=ustdeger;altdeger++){
+    	cout<< altdeger << endl;
+	}
+    
+    
+	}
