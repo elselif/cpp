@@ -1,0 +1,23 @@
+#include <iostream> // n elemanlı dizi oluşturma ve eleman atama
+using namespace std;
+int main(){
+	
+	int j;
+	cout << "lutfen eleman sayisini giriniz : " ;
+	cin>> j;
+	
+	int dizi[j];
+	int i;
+	
+	for(i=0;i<j;i++){
+		cout << "dizinin elemanlarini giriniz : " ;
+		cin >> dizi[i];
+	}
+	cout<< "-------------------------\n" ;
+	
+	for(i=0;i<j;i++){
+		cout << "dizinin elemanıdır : \n" << dizi[i] ;
+	}
+	
+	
+}
