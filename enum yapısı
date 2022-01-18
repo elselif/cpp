@@ -1,0 +1,16 @@
+#include <iostream>
+
+enum renk{sari,kirmizi,mavi,lacivert,mor,beyaz,siyah}; 
+
+using namespace std;
+
+
+int main()
+{
+	renk r1,r2;
+	r1 = kirmizi ;
+	r2 = beyaz ;
+
+	
+	cout << r1 << endl ;
+}
