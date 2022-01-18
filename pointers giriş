@@ -1,0 +1,15 @@
+ #include <iostream>
+ 
+ using namespace std;
+ 
+ int main()
+ {
+ 	int a = 10 ;
+ 	int *p;
+ 	p = &a;
+ 	cout << " a : " << a << endl ;
+ 	cout << " *p : " << *p << endl; // yıldızın anlamı gösterdiğin yerdeki değeri bas demek
+	  
+ 	cout << "&a" << &a << endl;
+ 	cout << "p : " << p << endl;
+ }
