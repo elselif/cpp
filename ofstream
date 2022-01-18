@@ -1,0 +1,25 @@
+#include <iostream>
+#include <fstream> // dosya okuma-yazma islemi icin
+
+using namespace std ;
+int main()
+{
+	/*
+	ofstream : dosyaya yazı yazma
+	ifstream : dosyaya yazı okuma 
+	*/
+	
+	ofstream yazmaDosyasi;
+	yazmaDosyasi.open("cppdeneme.txt");
+	
+	yazmaDosyasi << "merhaba " ;
+	
+	yazmaDosyasi.close();
+	
+	
+	
+	
+	
+	
+	return 0;
+}
