@@ -1,0 +1,23 @@
+ #include <iostream>
+ 
+ using namespace std;
+ 
+ int main()
+ {
+ 	int a = 10 ;
+ 	int *p;
+ 	p = &a;
+ 	cout << " a : " << a << endl ;
+ 	cout << " *p : " << *p << endl; // yıldızın anlamı gösterdiğin yerdeki değeri bas demek
+	  
+ 	cout << "&a" << &a << endl;
+ 	cout << "p : " << p << endl;
+ 	
+ 	int x[3]={1,2,3};
+ 	int *q;
+ 	// q = &x[0];
+ 	q = x ;
+ 	cout << q[2];
+ 	q[2] = 8 ;
+ 	cout << x[2] << endl; // pointersler sayesinde dizilere erişiriz. aslında her dizi bir pointerdır.
+ }
