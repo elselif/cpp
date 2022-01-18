@@ -1,0 +1,23 @@
+ #include <iostream>
+ 
+ using namespace std;
+ 
+ int g (int x ) // fonksiyon mantığında a değerinin x e kopyalanması  (call by value)
+ {
+ 	x = 10 ;
+ } // scope of a variable , degiskenin gecerlilik alanı
+ int f (int *x) // call by reference
+ {
+ 	*x = 20 ;
+ }
+ 
+ int main()
+ {
+ 	int a = 10;
+ 	int *p; //pointer p tanımlanmış
+ 	p = &a; // pointerın a degiskenini göstermesi saglanmış
+ 	g(a);
+ 	f(p);
+ 	cout << a;
+ 	
+ }
