@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+struct insan
+{
+
+  int tcNo ;
+  string adi ;
+  string sehir ;
+
+};
+
+int main()
+{
+	insan h;
+	h.adi = "hanefi" ;
+	h.sehir = "istanbul";
+	h.tcNo = 546546;
+
+
+
+}
