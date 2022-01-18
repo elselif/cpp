@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+	int a[3]; //dizi için 3 elemanlık hafızada yer ayrıldı
+	int *p = (int*)malloc(sizeof(int)*3); // 3 int alack yer ayrıldı
+	p[2] = 6 ;
+	cout << p[2];
+	
+}
